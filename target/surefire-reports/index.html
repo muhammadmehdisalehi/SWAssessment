@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Remove items in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Remove items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can sign in&quot;, &quot;Optional[Login tests]&quot;)">runScenario("Verify valid users can sign in", "Optional[Login tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place a single item in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Place a single item in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can sign in&quot;, &quot;Optional[Login tests]&quot;)">runScenario("Verify valid users can sign in", "Optional[Login tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify locked out user gets locked out message&quot;, &quot;Optional[Login tests]&quot;)">runScenario("Verify locked out user gets locked out message", "Optional[Login tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can logout after signing in&quot;, &quot;Optional[Logout tests]&quot;)">runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate Order Totals and checkout&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Validate Order Totals and checkout", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify invalid users cannot sign in&quot;, &quot;Optional[Login tests]&quot;)">runScenario("Verify invalid users cannot sign in", "Optional[Login tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can logout after signing in&quot;, &quot;Optional[Logout tests]&quot;)">runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Runners.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Place multiple items in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">runScenario("Place multiple items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Runners.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Remove items in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Remove items in the shopping cart", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Remove items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can sign in&quot;, &quot;Optional[Login tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can sign in", "Optional[Login tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can sign in", "Optional[Login tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Place a single item in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Place a single item in the shopping cart", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Place a single item in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can sign in&quot;, &quot;Optional[Login tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can sign in", "Optional[Login tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can sign in", "Optional[Login tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify locked out user gets locked out message&quot;, &quot;Optional[Login tests]&quot;)">
+                  </a> <!-- runScenario("Verify locked out user gets locked out message", "Optional[Login tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify locked out user gets locked out message", "Optional[Login tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can logout after signing in&quot;, &quot;Optional[Logout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can logout after signing in", "Optional[Logout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate Order Totals and checkout&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Validate Order Totals and checkout", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate Order Totals and checkout", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify invalid users cannot sign in&quot;, &quot;Optional[Login tests]&quot;)">
+                  </a> <!-- runScenario("Verify invalid users cannot sign in", "Optional[Login tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify invalid users cannot sign in", "Optional[Login tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can logout after signing in&quot;, &quot;Optional[Logout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can logout after signing in", "Optional[Logout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify valid users can Filter products&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Place multiple items in the shopping cart&quot;, &quot;Optional[Filter, Cart &amp; Checkout tests]&quot;)">
+                  </a> <!-- runScenario("Place multiple items in the shopping cart", "Optional[Filter, Cart & Checkout tests]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Place multiple items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; data-provider-thread-count=&quot;4&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Runners.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'Runners.TestRunner')
+data.setCell(0, 3, 22605);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'Runners.TestRunner')
+data.setCell(1, 3, 22552);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'Runners.TestRunner')
+data.setCell(2, 3, 19899);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'Runners.TestRunner')
+data.setCell(3, 3, 19438);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'Runners.TestRunner')
+data.setCell(4, 3, 19395);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'Runners.TestRunner')
+data.setCell(5, 3, 18459);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'Runners.TestRunner')
+data.setCell(6, 3, 18391);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'Runners.TestRunner')
+data.setCell(7, 3, 17812);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'Runners.TestRunner')
+data.setCell(8, 3, 16610);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'Runners.TestRunner')
+data.setCell(9, 3, 15551);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'Runners.TestRunner')
+data.setCell(10, 3, 15380);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'Runners.TestRunner')
+data.setCell(11, 3, 15378);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'Runners.TestRunner')
+data.setCell(12, 3, 15296);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'Runners.TestRunner')
+data.setCell(13, 3, 14577);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Runners.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify locked out user gets locked out message", "Optional[Login tests]")</span>
+                <span class="method-start">678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify invalid users cannot sign in", "Optional[Login tests]")</span>
+                <span class="method-start">678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can sign in", "Optional[Login tests]")</span>
+                <span class="method-start">679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can sign in", "Optional[Login tests]")</span>
+                <span class="method-start">679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]")</span>
+                <span class="method-start">16063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can logout after signing in", "Optional[Logout tests]")</span>
+                <span class="method-start">19070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">23231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">23287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">31445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Verify valid users can Filter products", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">37530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Place a single item in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">42671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Place multiple items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">42684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Remove items in the shopping cart", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">51345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate Order Totals and checkout", "Optional[Filter, Cart & Checkout tests]")</span>
+                <span class="method-start">52108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">69922 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">70294 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
